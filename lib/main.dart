@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
             child: Row(
               children: [
                 Expanded(
-                  child: FlatButton(
+                  child: TextButton(
                     onPressed: () {
                       genRandomNumber();
                     },
@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 Expanded(
-                  child: FlatButton(
+                  child: TextButton(
                     onPressed: () {
                       genRandomNumber();
                     },
